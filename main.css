@@ -1,0 +1,71 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100px;
+}
+.appbar {
+  height: 60px;
+}
+.box {
+  padding: 10px 15px;
+  margin: 0 10px;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: 2px solid #b3b3b3;
+  position: relative;
+  background-color: white;
+}
+.robot {
+  top: -130px;
+  position: absolute;
+  z-index: -1;
+}
+.shocket {
+  z-index: 1;
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  top: 40px;
+  display: grid;
+  align-items: center;
+  /* background-color: red */
+  justify-items: right;
+}
+
+.left {
+  left: 29px;
+}
+
+.right {
+  left: 61px;
+}
+.ball {
+  content: "";
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  background: black;
+}
+
+/* .parent {
+  display: flex;
+}
+.eye {
+  position: relative;
+  display: grid;
+  width: 100px;
+  place-items: center;
+  background: #000;
+}
+.cavity {
+  position: absolute;
+  mix-blend-mode: color-burn;
+}
+.dot {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+} */
