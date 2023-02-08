@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Block&display=swap');
 body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  font-family: 'Flow Block', cursive;
 }
 img {
   width: 100px;
